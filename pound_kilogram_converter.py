@@ -11,12 +11,12 @@ lbsweight = 0
 kgweight = 0
 print('')
 
-if unit == "L":
+if unit.upper() == "L":
     lbsweight = weight 
     kgweight = round((weight / 2.205), 2)
     print(f'Your weight in Kilograms is {kgweight} Kg.')
 
-if unit == "K":
+if unit.upper() == "K":
     kgweight = weight
     lbsweight = round((weight * 2.205), 2)
     print(f'Your weight in Pounds is {lbsweight} Lbs.')
