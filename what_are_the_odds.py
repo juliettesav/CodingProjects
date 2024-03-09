@@ -29,7 +29,7 @@ print('')
 
 # if the same number, print player has to do the dare. 
 if computer_choice == player_choice: 
-    print('Uh-oh!! Looks like you gotta do the dare!😱')
+    print('Uh-oh!! Looks like you gotta do the dare! 😱')
     print('Too bad for you... 😈')
 
 # if a differnet number, print player doesn't have to do the dare. 
