@@ -34,7 +34,7 @@ if computer_choice == player_choice:
 
 # if a differnet number, print player doesn't have to do the dare. 
 else: 
-    print("Ahh... looks like you're off the hook.")
+    print("Ahh... Well, it looks like you're off the hook.")
     print('This time... 😈')
 
 print('')
