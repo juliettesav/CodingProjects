@@ -1,5 +1,5 @@
 # Review of Basic Python Operations and Control Flow
-
+'''
 # Variables and Data Types
 # Here we define variables that to store different types of data.
 age = 23
@@ -61,6 +61,9 @@ print(not price < 10)  # Logical NOT operation.
 
 
 # Conditional Statements
+
+# IF Statements
+
 temp = int(input("What is the current temperature today? "))
 
 if temp > 32:
@@ -73,6 +76,70 @@ else:
     print("That is not a valid temperature.")
 
 print("All done!")
+
+
+childs_age = input("Child's age: ")
+childs_age = int(childs_age)
+kinder_age = 5 
+
+if childs_age < kinder_age: 
+    print("This child should be in pre-school.")
+elif childs_age == kinder_age:
+    print("This child should be in Kindergarden.")
+else: 
+    print("This child should be in another grade.")
+
+
+# Define and Call a function 
+    
+### In the example below, whenever you type the function print_name(), it will run the print_name code written under def print_name(): 
+    
+### You can collapse functions and commented sections within ' ' ' these ' ' ' 
+
+name = input("What is your name? ")
+
+def print_message():
+    message = f'Your name is {name}.'
+    print(message)
+
+print_message()
+
+
+# By adding a varibale in the call function, you can provide the variable later on. 
+# Remember to define your variables up at the top, create the variables later, and pass them through the call function.
+
+def print_message(name, age):
+    message = f'Your name is {name} and your age is {age}.'
+    print(message)
+
+name = input("What is your name? ")
+age = input("What is your age? ")
+
+print_message(name, age)
+'''
+def grade_calculator(age, name): 
+    if age < 5: 
+        print(f'{name} is only {age} years old!')
+        grade = "Pre-school"
+        return grade
+    elif age == 5: 
+        print(f'{name} is {age} years old.')
+        grade = "Kindergarden" 
+        return grade 
+    else: 
+        print("They grow up so fast!")
+        grade = "a grade above kindergarden or not in school"
+        return grade
+
+name = input("What is your child's name? ")
+age = int(input("What is your child's age? "))
+
+grade = grade_calculator(age,name) 
+
+print(f'It appears that {name} is in {grade}!')
+
+
+'''
 
 # While Loops 
 
@@ -124,7 +191,7 @@ while i < len(numbers):
 # Range() Function 
 num = range(5)
 print(num)
-# Iterate over a range to print the full range rather that the default range format. 
+# Iterate over a range to print the full Frange rather that the default range format. 
 num = range(5, 10) # Does not include the number 10 but does include the number 5. 
 for number in num:
     print(number)
@@ -165,3 +232,5 @@ print(f'{[1, 2, 3]}')
 
 print("___Tuples___")
 print(f'{[1, 2, 3]}')
+
+'''
