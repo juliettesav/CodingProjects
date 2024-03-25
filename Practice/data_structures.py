@@ -44,4 +44,12 @@ stu4 = array[3]
 
 stu_3_from_end = array[-3]
 
-print("Hello world!")
+SUM = 0
+
+for pet_count in array:
+    SUM = SUM + pet_count
+print(SUM)
+
+# average = sum / num of items 
+avg = SUM / num_of_students
+print(avg)
