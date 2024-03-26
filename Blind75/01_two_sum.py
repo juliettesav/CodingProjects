@@ -1,19 +1,22 @@
-nums = [3,2,4] 
-target = 6 
-
-current_sum = sum(nums)
-print(f"The current sum is {current_sum}.")
-
-class Solution(object):
-    def twoSum(self,nums, target):
-        nums = [3,2,4] 
-        target = 6 
-yes = 0
-
 #Pseudo code: 
 
 # Add index 0 and index 1 
 # repeat all combinations 
-# which combo is equal to target
+# print which combo is equal to target
 
-#wip
+nums = [3,2,4] 
+target = 6 
+
+x = 0
+y = 1 
+round = 1
+
+while y < len(nums):
+    SUM = nums[x] + nums[y]
+    if SUM == target: 
+        print(f"[{x}, {y}]")
+    y = y + 1
+    if y == 3 and x < len(nums):
+        x = x + 1
+        y = round + 1
+        round = round + 1

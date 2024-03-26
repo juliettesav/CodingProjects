@@ -35,6 +35,13 @@ dq = deque("hello")
 # Number of pets of each student
 array = [0, 1, 0, 2, 1, 1, 4, 0, 0, 0, 3, 2, 1, 3, 0, 2, 2, 4]
 
+array[2] = 3 
+array[3] = array[3] + 1
+array[-1] = array[-1] + 2
+
+array.append(4)
+
+
 num_of_students = len(array)
 #print(num_of_students)
 
