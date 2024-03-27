@@ -12,8 +12,7 @@ y = 1
 round = 1
 
 while y < len(nums):
-    SUM = nums[x] + nums[y]
-    if SUM == target: 
+    if nums[x] + nums[y] == target: 
         print(f"[{x}, {y}]")
     y = y + 1
     if y == 3 and x < len(nums):
