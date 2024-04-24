@@ -15,3 +15,5 @@ print(difference_set_BA)
 
 symetric_difference_set = set_A.symmetric_difference(set_B) # Unique to both sets
 print(symetric_difference_set) 
+
+#TO BE COMPLETED
