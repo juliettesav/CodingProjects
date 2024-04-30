@@ -1,0 +1,15 @@
+Read  articles on Medium (https://medium.com/) – highly recommended to get a subscription for only $5/month. 
+There is a big community (specifically Towards Data Science {https://towardsdatascience.com/}) on there with all kinds of resources/advice on data analysis, AI/ML, Python, etc. 
+There are some great articles that will walk you through step-by-step on how to do things 
+(one article helped me learn how to implement an object/image recognition model using Tensorflow).
+ 
+Pandas is a great library for data manipulation/analysis. Something used very frequently.
+
+Here are a few articles to get started:
+1. Python: A Quick Review of Pandas. An overview of some useful pandas… | by Papa Moryba Kouate | Analytics Vidhya | Medium (https://medium.com/analytics-vidhya/python-a-quick-review-of-pandas-b4a975c266e4)
+2. Mastering Python Pandas: Unleashing the Power of Data Analysis | by Nelson M. | The Pythoneers | Aug, 2023 | Medium (https://medium.com/pythoneers/mastering-python-pandas-unleashing-the-power-of-data-analysis-70e164ab0f91)
+ 
+Quick guide to other important/useful tools (Python libraries, Kaggle, Jupyter Notebook, etc.):
+Getting Started with Python for Data Analysis | by Zak Jost | Towards Data Science (medium.com) | (https://medium.com/towards-data-science/getting-started-with-python-for-data-analysis-64d6f6c256b2)
+ 
+Coursera, LinkedIn Learning, and Udemy courses...
