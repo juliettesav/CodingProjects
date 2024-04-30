@@ -2,7 +2,7 @@ To prepare for the mock interview you can prep some examples from your experienc
 Lookup our purpose statement and culture pillars.
  
 You can also download this dataset from Kaggle: Vehicle dataset | Kaggle (https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho) 
-and go ahead and get a Python environment setup to where you can read in the data into a Pandas DataFrame. 
+Get a Python environment setup to where you can read in the data into a Pandas DataFrame. 
 I will ask a few data manipulation questions. 
 I will also ask you a few simple SQL questions since I see it is listed on your resume. So feel free to review some of the basics.
 ...
