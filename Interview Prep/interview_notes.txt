@@ -1,0 +1,40 @@
+To prepare for a behavioral interview, think of examples from your experience that can be referenced in behavioral questions. 
+Lookup the company's purpose statement and culture pillars.
+
+How To Use the STAR Interview Response Technique | Indeed.com (https://www.indeed.com/career-advice/interviewing/how-to-use-the-star-interview-response-technique)
+...
+
+Behavioral questions:
+ 
+Tell me about yourself.
+Notes: Clear and concise. Included passions.
+ 
+Tell me about a time when you identified a problem and describe your role in the solution.
+Notes: UI designer at AS (resume) UI tips that were disorganized, UI problems. Took intiative to reconfigure UI kit to introcude simplicity. Did competitive research. Imroved speed and efficiency, better met stakeholder needs.
+ 
+How do you maintain positivity in the work place?
+Notes: Empathy, understand other people's background. Better days are ahead. Treat people with kindenss
+ 
+Which culture pillar do you align with the most? Can you provide an example of how you have aligned with that pillar in your previous work?
+Act Boldy, Move Faster, Win as One, Serve Customers First
+Notes: Win as One, Gave fraternity examples
+ 
+Describe your strengths and how you leverage them. 
+Notes: Theme of creativity and empathy towards team members.
+ 
+Describe your weaknesses and plans for improvement?
+Notes: Being too attentative to the details making it difficult to finalize a project. Basically perfectionism, set clear criteria of when work is complete and not setting
+ 
+How would your colleagues describe you?
+Notes: Hard worker, takes initiative, goes above and beyond, very helpful
+ 
+What are you looking for in your next role?
+Notes: Looking for more technical challenge. Connecting people to greater possibility.
+ 
+Tell me about a time in which you embraced a new system, process, technology or data at work that was a major change from the old way of doing things.
+Notes: Didn't have any background in Figma, had to re-learn new software. Leveraged team and experience to learn quickly.
+ 
+Tell me about a time you felt pressure for an approaching deadline. What did you do to accomplish the task?
+Notes: Advanced Python course group project to build a website. Time management, managed expectations, optimized time,
+ 
+Overall Notes: Should link culture pilllars and purpose statement to responses

@@ -1,0 +1,32 @@
+To prepare for a technical interview, practice some data manipulation questions. 
+To practice, download this dataset from Kaggle: Vehicle dataset | Kaggle (https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho).
+Get a Python environment setup to where you can read in the data into a Pandas DataFrame. 
+
+Data Questions:
+
+What is the most expensive vehicle in the dataset?
+Audi RS7 2015-2019 Sportback Performance
+ 
+Add a column for the Make of the car.
+ 
+Create a column for miles driven (conversion = 0.62137119)
+ 
+Give me the 5 cheapest vehicles sold in 2007.
+ 
+Save all Hyundai vehicles made after the year 2000 to a file.
+
+Simple SQL Questions: 
+
+Re-order the following SQL operations in the proper order of operations:
+FROM, GROUP BY, ON, Order by, Select, Where, JOIN
+ 
+SELECT, FROM, JOIN, ON, WHERE, GROUP BY, HAVING, ORDER BY
+ 
+How would you find the top 5 most-driven vehicle names from the previous dataset using an SQL query?
+
+Data analytical questions: 
+ 
+Tell me about a data analytics project that you worked on. Explain it as if I did not have a technical background.
+ 
+Explain how you might estimate the number of shoes that could be potentially sold in New York City in June.
+Notes: Population size, # of tourist, Isolate shoe brand like Nike and analyze their shoe sales. Predict if there is an increase.
