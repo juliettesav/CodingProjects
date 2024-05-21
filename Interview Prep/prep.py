@@ -1,1 +1,3 @@
-#enter your work here 
+import csv 
+
+file = "file.csv"
