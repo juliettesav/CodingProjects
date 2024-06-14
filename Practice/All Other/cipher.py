@@ -21,5 +21,3 @@ if menu == "E":
 if menu == "D":
     message = input("Type your message to decode: ")
     print(caesar_decode(message, 3))
-
-#to be continued...
