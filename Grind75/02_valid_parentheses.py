@@ -5,23 +5,48 @@
 string = "()()"
 i = 0 
 
-#run a function that checks the bracket type and finds the pair 
-
+#Pairs 
 round = ")"
 square = "]"
 curly = "}"
 
+
+#run a function that checks the bracket type and finds the pair 
+#if index == pair
+
+def pair(round, square, curly):
+    if string[i] == "(":
+        #round = ")"
+        return round
+    if string[i] == "[":
+        #square = "]"
+        return square
+    if string[i] == "{":
+        #curly = "}"
+        return curly
+    
+
+while i <= (len(string)-1): 
+    if string[i] == pair: 
+        True
+
 while i <= (len(string)-1): 
     if string[i] == "(":
         if string[i+1] == ")":
-            #print(f"i equals {i}")
             status = "True"
-            #print("True")
         else: 
-            
-            #print(f"i equals {i}")
             status = "False"
-            #print("False")
         i = i + 2
-        #print(f"i equals {i}")
 print(status)
+
+
+'''
+while i <= (len(string)-1): 
+    if string[i] == "(":
+        if string[i+1] == ")":
+            status = "True"
+        else: 
+            status = "False"
+        i = i + 2
+print(status)
+'''
