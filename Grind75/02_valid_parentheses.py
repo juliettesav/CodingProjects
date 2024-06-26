@@ -5,6 +5,7 @@
 string = "()()"
 i = 0 
 
+'''
 #Pairs 
 round = ")"
 square = "]"
@@ -38,9 +39,8 @@ while i <= (len(string)-1):
             status = "False"
         i = i + 2
 print(status)
-
-
 '''
+
 while i <= (len(string)-1): 
     if string[i] == "(":
         if string[i+1] == ")":
@@ -49,4 +49,3 @@ while i <= (len(string)-1):
             status = "False"
         i = i + 2
 print(status)
-'''
