@@ -98,6 +98,7 @@ To get comfortable with functions and classes, try the following exercises:
 '''
 def main():
     return
+
 '''
 2. Class Exercise: Create a class Rectangle with attributes length and width. Add methods to calculate the area and perimeter of the rectangle.
 '''
