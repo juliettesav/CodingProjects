@@ -97,7 +97,7 @@ To get comfortable with functions and classes, try the following exercises:
 1. Function Exercise: Write a function is_even that takes a number and returns True if it's even, and False otherwise.
 '''
 def main():
-    return
+    return 
 
 '''
 2. Class Exercise: Create a class Rectangle with attributes length and width. Add methods to calculate the area and perimeter of the rectangle.
