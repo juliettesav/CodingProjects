@@ -97,9 +97,22 @@ To get comfortable with functions and classes, try the following exercises:
 1. Function Exercise: Write a function is_even that takes a number and returns True if it's even, and False otherwise.
 '''
 def is_even(num):
-    if num == even: 
+    if num % 2 == 0:
         return True 
-    if num == odd: 
+    else: 
+        return False
+
+print(is_even(6))
+
+# Function Exercise 2: Write a function is_odd that takes a number and returns True if it's odd, and False otherwise.
+
+def is_odd(num):
+    if num % 2 != 0: 
+        return True
+    else: 
+        return False 
+    
+print(is_odd(6))
 
 '''
 2. Class Exercise: Create a class Rectangle with attributes length and width. Add methods to calculate the area and perimeter of the rectangle.
