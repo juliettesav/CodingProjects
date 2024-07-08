@@ -114,6 +114,19 @@ def is_odd(num):
     
 print(is_odd(6))
 
+# Function Exercise 3: Check if a Number is a Multiple of Another Number 
+
+def multiple(num, divisor):
+    if num % divisor == 0:
+        return True 
+    else: 
+        return False 
+
+num = int(input("What number do you want to check? "))
+divisor = int(input("What do you want to see if this number is a multiple of? "))
+
+print(f"The answer is {multiple(num, divisor)}.")
+
 '''
 2. Class Exercise: Create a class Rectangle with attributes length and width. Add methods to calculate the area and perimeter of the rectangle.
 '''
