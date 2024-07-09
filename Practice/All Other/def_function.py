@@ -130,6 +130,26 @@ print(f"The answer is {multiple(num, divisor)}.")
 '''
 2. Class Exercise: Create a class Rectangle with attributes length and width. Add methods to calculate the area and perimeter of the rectangle.
 '''
+len = int(input("Input length: "))
+wid = int(input("Input Width: "))
+
+class Rectangle:
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
+
+    def Area(self, length, width): 
+        area = length * width
+        print(area)
+    
+    def Perimeter(self, length, width):
+        perimeter = (2 * length) + (2 * width)
+        print(perimeter)
+
+
+my_rectangle = Rectangle(len,wid)
+my_rectangle.Area(len,wid)
+my_rectangle.Perimeter(len,wid)
 
 '''
 Keep practicing and you'll get it in no time!
