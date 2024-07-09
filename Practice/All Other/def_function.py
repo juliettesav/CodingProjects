@@ -153,4 +153,43 @@ my_rectangle.Perimeter(len,wid)
 
 '''
 Keep practicing and you'll get it in no time!
+
+Here are some more practice challenges: 
+
+FUNCTION CHALLENGES
+1: Check Prime
+Write a function is_prime(n) that takes an integer n and returns True if n is a prime number and False otherwise.
+
+'''
+
+'''
+
+2: Find Maximum
+Write a function find_max(numbers) that takes a list of numbers and returns the largest number in the list.
+
+'''
+
+'''
+3: Fibonacci Sequence
+Write a function fibonacci(n) that returns a list containing the first n numbers in the Fibonacci sequence.
+
+'''
+
+'''
+
+CLASS CHALLENGES
+1: Simple Bank Account
+Create a class BankAccount with attributes owner and balance. Add methods deposit(amount) to add to the balance, and withdraw(amount) to subtract from the balance if sufficient funds are available.
+
+'''
+
+'''
+2: Circle
+Create a class Circle with attribute radius. Add methods to calculate the area and circumference of the circle.
+
+'''
+
+'''
+3: Student Grades
+Create a class Student with attributes name and grades (a list of grades). Add methods to calculate the average grade, add a new grade, and return the highest and lowest grades.
 '''
