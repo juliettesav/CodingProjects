@@ -171,6 +171,9 @@ def is_prime(n):
     i += 6
     return True 
 
+n = int(input("Check for prime: "))
+print(f"The answer is {is_prime(n)}.")
+
 '''
 
 2: Find Maximum
