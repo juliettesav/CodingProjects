@@ -90,11 +90,12 @@ if __name__ == "__main__":
 Calculator: This class has an attribute result and two methods add and subtract.
 main: This function creates an instance of the Calculator class and calls its methods.
 
+
 PRACTICE
 
 To get comfortable with functions and classes, try the following exercises:
 
-1. Function Exercise: Write a function is_even that takes a number and returns True if it's even, and False otherwise.
+Function Exercise 1: Write a function is_even that takes a number and returns True if it's even, and False otherwise.
 '''
 def is_even(num):
     if num % 2 == 0:
@@ -179,7 +180,22 @@ print(f"The answer is {is_prime(n)}.")
 Write a function find_max(numbers) that takes a list of numbers and returns the largest number in the list.
 
 '''
-#Next up... 
+def find_max(nums): 
+    nums.sort()
+    return nums[-1]
+
+nums = [3, 5, 1, 8, 2]
+print(f"The largest number in the string is {find_max(nums)}.")
+
+
+while True: 
+    num = int(input("Add a number to the list: ")) 
+    nums.append(num)
+    add = input("Want to add another number? Type y or n: ")
+    if add == "y":
+        True
+    else: 
+        False
 
 '''
 3: Fibonacci Sequence
