@@ -187,15 +187,13 @@ def find_max(nums):
 nums = [3, 5, 1, 8, 2]
 print(f"The largest number in the string is {find_max(nums)}.")
 
-
-while True: 
+add = 'y'
+while add == 'y': 
     num = int(input("Add a number to the list: ")) 
     nums.append(num)
     add = input("Want to add another number? Type y or n: ")
-    if add == "y":
-        True
-    else: 
-        False
+
+print(f"The largest number in the string is {find_max(nums)}.")
 
 '''
 3: Fibonacci Sequence
