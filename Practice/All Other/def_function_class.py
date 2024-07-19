@@ -195,13 +195,24 @@ while add == 'y':
 
 print(f"The largest number in the string is {find_max(nums)}.") 
 
-
-'''
-3: Fibonacci Sequence
+'''Fibonacci Sequence
 Write a function fibonacci(n) that returns a list containing the first n numbers in the Fibonacci sequence.
-
 '''
 
+def fibo(nacci, i, n):
+    while i < n: 
+        x = nacci[i] + nacci[i + 1]
+        nacci.append(x) 
+        i = i + 1
+    return x
+
+
+i = 0
+nacci = [0,1]
+
+n = (int(input("How many numbers of the fibonacci sequence do you want to see? "))-2)
+fibo(nacci, i, n)
+print(f"The Fibonacci sequence is {nacci}.")
 '''
 
 CLASS CHALLENGES
