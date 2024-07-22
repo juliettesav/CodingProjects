@@ -195,7 +195,9 @@ while add == 'y':
 
 print(f"The largest number in the string is {find_max(nums)}.") 
 
-'''Fibonacci Sequence
+'''
+
+3: Fibonacci Sequence
 Write a function fibonacci(n) that returns a list containing the first n numbers in the Fibonacci sequence.
 '''
 
@@ -242,5 +244,3 @@ class Student:
 
 Student(name=input("Name: "))
 Student(grade=input("Grade: "))
-
-#Continue here
