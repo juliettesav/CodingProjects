@@ -232,15 +232,31 @@ Create a class Circle with attribute radius. Add methods to calculate the area a
 '''
 3: Student Grades
 Create a class Student with attributes name and grades (a list of grades). Add methods to calculate the average grade, add a new grade, and return the highest and lowest grades.
-'''
+
 class Student: 
     def __init__(self, name, grade):
         self.name = name 
         print(name)
         self.grade = grade
         print(grade)
+        return grade
     def grades():
         grades = []
+'''
+grades_list = []
+add_new = "y"
 
-Student(name=input("Name: "))
-Student(grade=input("Grade: "))
+def grades():
+    while add_new == 'y': 
+        new_grade = int(input("New Grade: "))
+        grades_list.append(new_grade)
+        add_new = input("Add another new grade? Select y or n: ")
+        return grades_list 
+def avg_grade():
+    avg = sum(grades_list) / len(grades_list)
+
+print(f"Your grades: {grades(grades_list, add_new)}")
+print(f"Your average grade: {avg_grade}")
+
+#Student(name=input("Name: "))
+#Student(grade=input("Grade: "))
