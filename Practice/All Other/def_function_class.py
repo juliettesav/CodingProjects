@@ -243,21 +243,22 @@ class Student:
     def grades():
         grades = []
 '''
-grades_list = []
-add_new = "y"
 
-def grades():
+def grades(grades_list):
+    add_new = "y"
     while add_new == 'y': 
         new_grade = int(input("New Grade: "))
         grades_list.append(new_grade)
         add_new = input("Add another new grade? Select y or n: ")
-        return grades_list 
-def avg_grade():
-    avg = sum(grades_list) / len(grades_list)
+    return grades_list 
 
-print(f"Your grades: {grades(grades_list, add_new)}")
-print(f"Your average grade: {avg_grade}")
+def avg_grade(grades_list):
+    if len(grades_list) > 0:
+        avg = sum(grades_list) / len(grades_list)
+        return avg 
+    else: 
+        return 0
 
-#Student(name=input("Name: "))
-#Student(grade=input("Grade: "))
-###NOT DONE YET 
+grades_list = grades([])
+print(f"Your grades: {grades_list}")
+print(f"Your average grade: {avg_grade(grades_list)}")
