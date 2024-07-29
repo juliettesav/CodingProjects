@@ -222,7 +222,11 @@ CLASS CHALLENGES
 Create a class BankAccount with attributes owner and balance. Add methods deposit(amount) to add to the balance, and withdraw(amount) to subtract from the balance if sufficient funds are available.
 
 '''
-
+class Bank: 
+    def __init__(self, owner. bal):
+        owner = ""
+        bal = ""
+        
 '''
 2: Circle
 Create a class Circle with attribute radius. Add methods to calculate the area and circumference of the circle.
@@ -262,4 +266,3 @@ def avg_grade(grades_list):
 grades_list = grades([])
 print(f"Your grades: {grades_list}")
 print(f"Your average grade: {avg_grade(grades_list)}")
-### End
