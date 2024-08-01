@@ -224,8 +224,9 @@ Create a class BankAccount with attributes owner and balance. Add methods deposi
 '''
 class Bank: 
     def __init__(self, owner. bal):
-        owner = ""
-        bal = ""
+        self.owner = ""
+        self.bal = ""
+
 
 # Continue...        
 
