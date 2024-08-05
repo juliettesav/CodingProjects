@@ -38,10 +38,6 @@ Instance:
 
 '''
 
-
-
-
-
 # CONTINUE BELOW (from this chat https://chatgpt.com/share/56d0f8d2-a7b8-42d8-b674-89003141e5f3)
 
 '''
