@@ -222,6 +222,33 @@ CLASS CHALLENGES
 Create a class BankAccount with attributes owner and balance. Add methods deposit(amount) to add to the balance, and withdraw(amount) to subtract from the balance if sufficient funds are available.
 
 '''
+class BankAccount:
+    def __init__(self, owner, balance):
+        self.owner = owner 
+        self.balance = balance 
+
+    def deposit(self):
+        deposit_amt = int(input("How much would you like to deposit? "))
+        balance = balance + deposit_amt 
+        return balance
+
+    def withdraw(self):
+        withdraw_amt = int(input("How much would you like to withdraw? "))
+        balance = balance + withdraw_amt
+        return balance
+
+bank = BankAccount("Juliette", 500)
+
+print(bank())
+
+
+
+
+
+
+
+
+
 # class Bank: 
 #     def __init__(self, owner. bal):
 #         self.owner = ""
