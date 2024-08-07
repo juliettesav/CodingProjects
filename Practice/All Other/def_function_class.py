@@ -253,11 +253,15 @@ class Circle:
         self.radius = radius 
     
     def area(self):
-        circ_area = 
+        circ_area = 3.14 * (self.radius * self.radius)
 
     def circumference(self):
-        pass
+        circ_circ = 2 * 3.14 * self.radius 
+        return circ_circ 
 
+my_circ = Circle(4)
+print(f"The area of the circle is {my_circ.area}.")
+print(f"The circumference of the circle is {my_circ.circumference}.")
 
 '''
 3: Student Grades
