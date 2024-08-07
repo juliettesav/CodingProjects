@@ -12,16 +12,17 @@ class Student:
         self.grades.append(new_grade)
         return new_grade
 
-'''
-    def high(self):
-        pass 
-
-    def low(self):
-        pass
-'''
+    def high_low(self):
+        highest = max(self.grades)  # Find the highest grade
+        lowest = min(self.grades)   # Find the lowest grade
+        return highest, lowest
 
 my_grades = Student("Juliette", [90, 100, 75, 100])
 
-print(my_grades.avg_grade())
-print(my_grades.add_grade())
+print(f"Your overall average grade is {my_grades.avg_grade()}.")
+my_grades.add_grade()
 print(my_grades.grades)
+
+highest, lowest = my_grades.high_low()  # Unpack the returned values
+print(f"Your highest grade is {highest}.")
+print(f"Your lowset grade is {lowest}.")

@@ -248,20 +248,20 @@ print(bank.withdraw())
 Create a class Circle with attribute radius. Add methods to calculate the area and circumference of the circle.
 
 '''
+class Circle:
+    def __init__(self, radius):
+        self.radius = radius 
+    
+    def area(self):
+        circ_area = 
+
+    def circumference(self):
+        pass
+
 
 '''
 3: Student Grades
 Create a class Student with attributes name and grades (a list of grades). Add methods to calculate the average grade, add a new grade, and return the highest and lowest grades.
-
-class Student: 
-    def __init__(self, name, grade):
-        self.name = name 
-        print(name)
-        self.grade = grade
-        print(grade)
-        return grade
-    def grades():
-        grades = []
 '''
 
 class Student: 
@@ -278,42 +278,17 @@ class Student:
         self.grades.append(new_grade)
         return new_grade
 
-'''
-    def high(self):
-        pass 
-
-    def low(self):
-        pass
-'''
+    def high_low(self):
+        highest = max(self.grades)  # Find the highest grade
+        lowest = min(self.grades)   # Find the lowest grade
+        return highest, lowest
 
 my_grades = Student("Juliette", [90, 100, 75, 100])
 
-print(my_grades.avg_grade())
-print(my_grades.add_grade())
+print(f"Your overall average grade is {my_grades.avg_grade()}.")
+my_grades.add_grade()
 print(my_grades.grades)
 
-
-
-
-
-
-
-
-def grades(grades_list):
-    add_new = "y"
-    while add_new == 'y': 
-        new_grade = int(input("New Grade: "))
-        grades_list.append(new_grade)
-        add_new = input("Add another new grade? Select y or n: ")
-    return grades_list 
-
-def avg_grade(grades_list):
-    if len(grades_list) > 0:
-        avg = sum(grades_list) / len(grades_list)
-        return avg 
-    else: 
-        return 0
-
-grades_list = grades([])
-print(f"Your grades: {grades_list}")
-print(f"Your average grade: {avg_grade(grades_list)}")
+highest, lowest = my_grades.high_low()  # Unpack the returned values
+print(f"Your highest grade is {highest}.")
+print(f"Your lowest grade is {lowest}.")
