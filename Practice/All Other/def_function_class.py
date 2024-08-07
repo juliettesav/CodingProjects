@@ -229,33 +229,19 @@ class BankAccount:
 
     def deposit(self):
         deposit_amt = int(input("How much would you like to deposit? "))
-        balance = balance + deposit_amt 
-        return balance
+        self.balance = self.balance + deposit_amt 
+        return self.balance
 
     def withdraw(self):
         withdraw_amt = int(input("How much would you like to withdraw? "))
-        balance = balance + withdraw_amt
-        return balance
+        self.balance = self.balance - withdraw_amt
+        return self.balance
 
 bank = BankAccount("Juliette", 500)
 
-print(bank())
+print(bank.deposit())
+print(bank.withdraw())
 
-
-
-
-
-
-
-
-
-# class Bank: 
-#     def __init__(self, owner. bal):
-#         self.owner = ""
-#         self.bal = ""
-
-
-# Continue...        
 
 '''
 2: Circle
@@ -277,6 +263,41 @@ class Student:
     def grades():
         grades = []
 '''
+
+class Student: 
+    def __init__(self, name, grades):
+        self.name = name 
+        self.grades = grades 
+
+    def avg_grade(self):
+        avg = sum(self.grades) / len(self.grades)
+        return avg
+
+    def add_grade(self):
+        new_grade = int(input("Add New Grade: "))
+        self.grades.append(new_grade)
+        return new_grade
+
+'''
+    def high(self):
+        pass 
+
+    def low(self):
+        pass
+'''
+
+my_grades = Student("Juliette", [90, 100, 75, 100])
+
+print(my_grades.avg_grade())
+print(my_grades.add_grade())
+print(my_grades.grades)
+
+
+
+
+
+
+
 
 def grades(grades_list):
     add_new = "y"
