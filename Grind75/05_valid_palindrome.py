@@ -1,3 +1,5 @@
+# Given a string 's', return true if it is a palindrome (same spelling  forward and backward), or false otherwise.
+
 import re
 
 class Solution:
