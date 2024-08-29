@@ -2,6 +2,8 @@ print('')
 print("Welcome! If you are new, please press Enter to create an account. To sign in, type '1'.")
 import login
 
+from type_1 import type_1_function
+
 
 while True:
    while True:
@@ -10,7 +12,7 @@ while True:
        op=input("")
 
        if op == "1":
-           import type_1
+           type_1_function()
 
        if op == "2":
            import type_2
@@ -33,4 +35,4 @@ while True:
        if op == "doggo":
            import doggo
            
-   break
+   #break
