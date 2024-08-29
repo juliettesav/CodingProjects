@@ -6,33 +6,33 @@ from type_1 import type_1_function
 
 
 while True:
-   while True:
-       import menu
+    while True:
+        import menu
 
-       op=input("")
+        op=input("")
 
-       if op == "1":
-           type_1_function()
+        if op == "1":
+            type_1_function()
 
-       if op == "2":
-           import type_2
+        if op == "2":
+            import type_2
 
-       if op == "3":
-           import type_3
+        if op == "3":
+            import type_3
 
-       if op == "4":
-           import type_4
+        if op == "4":
+            import type_4
 
-       if op == "5":
-           import type_5
+        if op == "5":
+            import type_5
 
-       if op == "magic cat":
-           import magic_cat
+        if op == "magic cat":
+            import magic_cat
 
-       if op == "love":
-           import love
+        if op == "love":
+            import love
 
-       if op == "doggo":
-           import doggo
-           
-   break
+        if op == "doggo":
+            import doggo
+            
+   #break
