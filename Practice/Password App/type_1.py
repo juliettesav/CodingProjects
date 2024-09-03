@@ -1,4 +1,4 @@
-def type_1_function():
+def play():
     print(' ')
     print("You have chosen area calculator!")
     L=int(input("What is the length? "))

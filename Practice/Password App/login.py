@@ -11,7 +11,7 @@ while True:
            enter_pw=int(input("Please enter your password: "))
 
 
-           if enter_pw == 162387:
+           if enter_pw == 1234:
                print("Access granted.")
                print(' ')
               
