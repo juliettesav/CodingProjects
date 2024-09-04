@@ -6,5 +6,3 @@ def play():
     area=L*W
     print("The area is ",area,".",sep='')
     print(' ')
-    cont=input("Press Enter to select a new option.")
-    print(' ')

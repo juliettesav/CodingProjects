@@ -7,5 +7,3 @@ def play():
     eb_result = random.sample(eb, 1)
     print("The Magic 8 Ball says:",eb_result)
     print(' ')
-    cont=input("Press Enter to select a new option.")
-    print(' ')

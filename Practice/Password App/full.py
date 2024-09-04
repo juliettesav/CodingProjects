@@ -2,10 +2,6 @@ print('')
 print("Welcome! If you are new, please press Enter to create an account. To sign in, type '1'.")
 import login
 
-# import type_1
-# import type_2
-# import type_3
-
 def display_menu():
     print(' ')
     print("Please select an option:")
@@ -37,6 +33,14 @@ def main():
             type_3.play()
             input("\nPress Enter to return to the menu.")
         elif choice == '4':
+            import type_4
+            type_4.play()
+            input("\nPress Enter to return to the menu.")
+        elif choice == '5':
+            import type_5
+            type_5.play()
+            input("\nPress Enter to return to the menu.")
+        elif choice == 'sign off':
             print("Exiting the game menu. Goodbye!")
             break
         else:
