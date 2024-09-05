@@ -6,4 +6,5 @@ def play():
     eb = ["Yes","No","Maybe","Ask again later","Signs point to yes"]
     eb_result = random.sample(eb, 1)
     print("The Magic 8 Ball says:",eb_result)
-    print(' ')
+
+    input("\nPress Enter to return to the menu.")

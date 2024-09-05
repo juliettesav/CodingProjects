@@ -5,4 +5,5 @@ def play():
     W=int(input("What is the width? "))
     area=L*W
     print("The area is ",area,".",sep='')
-    print(' ')
+
+    input("\nPress Enter to return to the menu.")

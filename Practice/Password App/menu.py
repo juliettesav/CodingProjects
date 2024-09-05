@@ -1,5 +1,4 @@
 def display_menu():
-    choice = ""
     print(' ')
     print("Please select an option:")
     print("Type '1' for area calculator.")
@@ -12,19 +11,14 @@ def display_menu():
     print("Or type 'sign off' to sign off.")
     print(' ')
 
-    if choice == "more":
-        print(' ')
-        print("MORE OPTIONS")
-        print("Type any of the following for a surprise:")
-        print(' ')
-        print('- magic cat')
-        print('- doggo')
-        print('- love')
-        print(' ')
-        cont=input("Press Enter to select a new option.")
-        print(' ')
-
-    if choice == "sign off":
-        print(' ')
-        #print("Thank you for playing, ",username,"!",sep='')
-        print("See you next time!")
+def display_more():
+    print(' ')
+    print("MORE OPTIONS")
+    print("Type any of the following for a surprise:")
+    print(' ')
+    print('- magic cat')
+    print('- doggo')
+    print('- love')
+    print(' ')
+    cont=input("Press Enter to select a new option.")
+    print(' ')

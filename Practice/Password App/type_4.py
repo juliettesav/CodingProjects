@@ -67,4 +67,5 @@ def play():
     print("Thank you for playing The Office Trivia Game. You answered",score,"questions correctly!")
     final_score=(score/total_questions)*100
     print("Final Score: ",final_score,"%",sep='')
-    print(' ')
+
+    input("\nPress Enter to return to the menu.")

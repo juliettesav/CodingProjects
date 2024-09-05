@@ -1,3 +1,6 @@
+print('')
+print("Welcome! If you are new, please press Enter to create an account. To sign in, type '1'.")
+
 enter=input('')
 
 

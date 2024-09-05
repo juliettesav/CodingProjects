@@ -26,4 +26,5 @@ def play():
     print("So I went to get a",adj3,"scoop of",flavor,"flavored ice cream. It was delicious and")
     print("filled me up. After all that ice cream, I had to",verb1,adv2,"to catch the bus.")
     print("When I got home I",verb_past2,"my mom for a",adj4, "day at the zoo.")
-    print(' ')
+
+    input("\nPress Enter to return to the menu.")

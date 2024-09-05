@@ -40,4 +40,5 @@ def play():
     # Start the GUI
     root.mainloop()
 
-    print(' ')
+
+    input("\nPress Enter to return to the menu.")
