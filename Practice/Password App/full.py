@@ -27,9 +27,15 @@ def main():
         elif choice == 'more':
             import menu
             menu.display_more()
-            if choice == "magic cat":
-                import magic_cat
-                magic_cat.display()
+        elif choice == "magic cat":
+            import magic_cat
+            magic_cat.display()
+        elif choice == "doggo":
+            import doggo
+            doggo.display()
+        elif choice == "love":
+            import love
+            love.display()
         elif choice == 'sign off':
             print('')
             print("Exiting the game menu.")
