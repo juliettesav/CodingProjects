@@ -25,6 +25,7 @@ if reply == 'y':
     if reply2 == "y":
         input("What kind of toppings would you like? ")
         print("Cool!")
+        print("Enjoy your ice cream!")
     
     if reply2 == "n":
         reply = 'n'
